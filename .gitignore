@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+ENV/
+env/
+
+# VSCode
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs and temp
+*.log
+*.tmp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env
+
+# Pytest
+.cache/
+
+# MyPy
+.mypy_cache/
+
+# Data
+artifacts/
+cred.json
+notebook/*.pkl
+notebook/random_forest.pkl
