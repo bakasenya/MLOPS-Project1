@@ -41,3 +41,4 @@ artifacts/
 cred.json
 notebook/*.pkl
 notebook/random_forest.pkl
+mlruns/
