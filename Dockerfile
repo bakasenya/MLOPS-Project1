@@ -12,8 +12,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 
 COPY . .
 
-COPY artifacts/raw/train.csv artifacts/raw/train.csv
-
 RUN pip install --no-cache-dir -e .
 
 RUN python pipeline/training_pipeline.py
