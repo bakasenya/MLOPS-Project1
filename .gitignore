@@ -37,7 +37,6 @@ Thumbs.db
 .mypy_cache/
 
 # Data
-artifacts/
 cred.json
 notebook/*.pkl
 notebook/random_forest.pkl
